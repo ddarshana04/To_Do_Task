@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title> Things Todo </title>
+</head>
+<body>
+<center>
+<header>
+    <h1><i class="fa-solid fa-pen-to-square"></i>    Things To Do</h1>
+    <br><br>
+    <fieldset style="width:400px" id="newtaskform"><legend id="legend-Title"><b>Enter your task details:</b></legend><br>
+    <form id="form_task">
+        <div class="todoinput">
+            <input type="text" class="form_title" placeholder="Add Title..."><br><br>
+            <input type="text" class="form_desc" placeholder="Enter description if any..."><br><br>
+            <input type="date" class="form_deadline" placeholder="deadline">
+
+        </div>
+                <br><br><input class="form_button" type="submit" value="Add">
+    </form>
+</header>
+</center>
+    <center>
+        <div class="nooftasks"></div>
+        <section class="todo_task_list">
+        </section>
+    </center>
+    
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
